@@ -54,6 +54,10 @@ module.exports = {
 };
 Run the SQL scripts in the db-scripts directory to set up the necessary tables.
 
+### mySql is hosted on the CleverCloud and integrated with the fronted using nodejs and reactjs
+![image](https://github.com/shivanand1602/yoga_backend/assets/88983117/d43440c1-8f41-4788-b011-cc7f86ea1b27)
+
+
 bash
 cd db-scripts
 mysql -u your_username -p your_database_name < create_tables.sql

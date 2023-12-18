@@ -6,7 +6,6 @@
 - [Database Setup](#database-setup)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -36,13 +35,14 @@ Install dependencies:
 bash
 Copy code
 npm install
-Database Setup
-Create a MySQL database for the project.
+## Database Setup
 
-Database Setup
-Create a MySQL database for the project.
+### Structure of the database on phpAdmin
+![image](https://github.com/shivanand1602/yoga_backend/assets/88983117/baebcd48-26d3-4efc-8e0f-e5da42a9d9cd)
 
-Update the database configuration in config/db.config.js with your MySQL credentials:
+1.Create a MySQL database for the project.
+
+2.Update the database configuration in config/db.config.js with your MySQL credentials:
 
 // config/db.config.js
 module.exports = {
@@ -57,10 +57,10 @@ Run the SQL scripts in the db-scripts directory to set up the necessary tables.
 bash
 cd db-scripts
 mysql -u your_username -p your_database_name < create_tables.sql
-Usage
+## Usage
 Start the backend server:
 npm start
 The server will run at http://localhost:3001 by default.
 
-Contributing
+## Contributing
 If you would like to contribute to the backend development, feel free to open issues or submit pull requests. Your suggestions and improvements are highly welcome.
